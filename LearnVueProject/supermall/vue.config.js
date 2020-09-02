@@ -12,5 +12,13 @@ module.exports = {
                 'common':'@/common'
             }
         }
+    },
+    lintOnSave: false,
+    devServer: {
+      overlay: {
+        warnings: true,
+        errors: true
+      }
     }
+
 }
